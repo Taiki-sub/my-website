@@ -7,7 +7,7 @@ jobs:
   dispatch-target-updated:
     strategy:
       matrix:
-        repo: ['${{ SYNC_TARGET }}']
+        repo: ['${{ vars.SYNC_TARGET }}']
     name: dispatch-target-updated
     runs-on: ubuntu-latest
     steps:
