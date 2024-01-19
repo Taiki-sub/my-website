@@ -10,14 +10,21 @@ sidebar_position: 1
 ### git cloneの実行方法
     - **ターミナルを開く**
 
+    - **ユーザ名とメールアドレスを登録**
+        ```
+        git config --global user.name githubに登録したユーザ名
+        ```
+        ```
+        git config --global user.email githubに登録したメールアドレス
+        ```
+
     - **git cloneの実行**
         ```
         git clone https://github.com/Wakayama-SocSEL/socusaurus.git
         ```
-    - **git cloneでユーザ名とパスフレーズの入力を求められた方は，ユーザ名とトークン（パスワードフレーズ）を入力**
+
     - **トークンの作成を行っていない人は，下記のトークン作成へ**
 ### トークンの作成
-    - **トークン作成済みの方は，２に進んでください**
     - **GitHubのホーム([https://github.com/](https://github.com/))へ移動してログイン**
 
     - **右上の自分のアイコンから歯車マークの「setting」を選択**
