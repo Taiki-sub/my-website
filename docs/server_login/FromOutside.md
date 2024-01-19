@@ -88,3 +88,4 @@ sidebar_position: 2
             User ユーザ名 
             ```
         - ファイル名を編集し、"config"にする(**注：拡張子はなし**)
+        ![config name](./img/2024-01-12_13h35_14.png)
