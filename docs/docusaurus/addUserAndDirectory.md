@@ -1,10 +1,10 @@
 ---
-id: docsaurustutrial
-title: docsaurusの環境構築
-sidebar_label: docsaurusの環境構築
+id: docusaurustutrial
+title: docusaurusの環境構築
+sidebar_label: docusaurusの環境構築
 sidebar_position: 1
 ---
-**このページでは、docsaurusの環境構築からローカルで動かす方法までを説明します**
+**このページでは、docusaurusの環境構築からローカルで動かす方法までを説明します**
 
 **参考資料**
 **https://www.geeklibrary.jp/counter-attack/npx/**
@@ -12,7 +12,7 @@ sidebar_position: 1
 ## 1.node.jsのインストール
     **https://nodejs.org/en からnode.jsの最新版をインストールする**
 
-## 2.docsaurusのインストール
+## 2.docusaurusのインストール
     - **作業用ディレクトリを作り、そこに移動する**
         ```bash 
         cd [作業用ディレクトリ]
@@ -27,7 +27,7 @@ sidebar_position: 1
         npx @docusaurus/init@latest init [プロジェクト名] classic
         ```
     - **Ok to proceed? (y) と聞かれるので"y"を入力する**
-    ![download docsaurus](./img/download_docsaurus.png)
+    ![download docusaurus](./img/download_docusaurus.png)
 
     - **３分ほど実行に時間がかかる**
     **Happy building awesome websites!と表示されれば成功**
@@ -42,4 +42,4 @@ sidebar_position: 1
         npm start
         ```
     - **以下の画面が出れば成功**
-    ![docsaurus page](./img/docsaurus_page.png)
+    ![docusaurus page](./img/docusaurus_page.png)
