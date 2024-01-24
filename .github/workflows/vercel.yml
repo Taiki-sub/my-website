@@ -1,18 +1,18 @@
-name: Vercel
+name: deploy
 
 on:
   push:
-    branches: ['main']
+    branches:
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+
     steps:
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v4
+
       - run: vercel --yes --prod --token=${{ secrets.VERCEL_TOKEN }}
-	env:
-	  # プロジェクトIDを"VERCEL_PROJECT_ID"として環境変数に設定
-	  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-	  # ユーザーID又はチームIDを"VERCEL_ORG_ID"として環境変数に設定
-	  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+        env:
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
