@@ -4,7 +4,7 @@ title: git cloneの用意と実行
 sidebar_label: git cloneの用意と実行
 sidebar_position: 1
 ---
-**このページでは、git cloneの実行方法とトークンの作成方法を説明する**
+**このページでは、git cloneの実行方法とトークンの作成方法,自分の情報の登録を説明する**
 
 
 ### git cloneの実行方法
@@ -33,7 +33,7 @@ sidebar_position: 1
     - サイトの下の方にあるGenerate tokenをクリックすれば，tokenの作成完了（**注：メモ必須**）
     ![token](./img/token2.png)
 
-### *ユーザ名とメールアドレスを登録
+### 自分の情報の登録
     - ユーザ名とメールアドレスを登録
         ```
         git config --global user.name githubに登録したユーザ名
