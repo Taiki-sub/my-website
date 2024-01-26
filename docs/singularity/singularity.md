@@ -10,8 +10,8 @@ sidebar_position: 3
 ### 1. singularityのログイン方法
  
     - **sshを用いてサーバにログイン**
-        - [学内からサーバにアクセス](FromCampus.md)
-        - [学外からサーバにアクセス](FromOutside.md)
+        - [学内からサーバにアクセス](../server_login/FromCampus.md)
+        - [学外からサーバにアクセス](../server_login/FromOutside.md)
     - **自身のディレクトリに移動**
         ```bash
         cd /mnt/data1/[ユーザ名]
