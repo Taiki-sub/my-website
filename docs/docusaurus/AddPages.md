@@ -51,5 +51,5 @@ sidebar_position: 2
     - **imgフォルダに追加したい画像を入れる**
     - **画像を貼りたい行に以下の内容を追加する**
         ```bash
-      ![画像の説明](./img/画像のファイル名) 
+        <img src={require('./img/画像のファイル名').default} width="画像のサイズ"/>
         ```
