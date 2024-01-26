@@ -42,7 +42,7 @@ sidebar_position: 2
 ### pushの後のプルリクエストの作成方法
     - githubのpushしたリポジトリに移動する
     - 画面上部に以下のような表示符が出るので，compare & pull requestをクリックする
-    ![PR image](./img/gitPR.png)
+        <img src={require('./img/gitPR.png').default} width="100%"/>
     - タイトルと説明を記入してCreateをクリックしてプルリクエストを作成する
     - コンフリクトが発生していないか確認してマージする
 
@@ -55,6 +55,3 @@ sidebar_position: 2
         ```
         git stash
         ```
-
-
-
