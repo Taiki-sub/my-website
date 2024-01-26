@@ -35,6 +35,10 @@ sidebar_position: 2
         ```
         git status
         ```
+    - コミットメッセージを入力してコミットする
+        ```
+        git commit -m "コミットメッセージ"
+        ```
     - ローカルリポジトリで行った変更をリモートリポジトリに反映させる（push）
         ```
         git push –u origin ブランチ名
@@ -45,6 +49,16 @@ sidebar_position: 2
         <img src={require('./img/gitPR.png').default} width="100%"/>
     - タイトルと説明を記入してCreateをクリックしてプルリクエストを作成する
     - コンフリクトが発生していないか確認してマージする
+
+### ローカルのブランチを削除する
+    - メインブランチに移動する
+        ```
+        git checkout main
+        ```
+    - ローカルのブランチを削除する
+        ```
+        git branch -d ブランチ名
+        ```
 
 ### 便利な方法
     - ブランチの作成と切り替えを同時に行える方法

@@ -26,8 +26,11 @@ sidebar_position: 2
         }
         ```
 
+
+    - **positionを入れ替えるときは数字の前にスペースを入れないとエラーが出るので注意**
     - **labelにはカテゴリの名称を、positionにはカテゴリがサイドバーの何番目に表示されるかを入れる**
         <img src={require('./img/sidebar.png').default} width="40%"/>
+
     - **ファイル名は"`_category_.json`"で保存すること**
 
 ## 3.mdファイルの操作
