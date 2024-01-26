@@ -26,7 +26,8 @@ sidebar_position: 2
         }
         ```
 
-- **labelにはカテゴリの名称を、positionにはカテゴリがサイドバーの何番目に表示されるかを入れる**
+    - **positionを入れ替えるときは数字の前にスペースを入れないとエラーが出るので注意**
+    - **labelにはカテゴリの名称を、positionにはカテゴリがサイドバーの何番目に表示されるかを入れる**
     ![sidebar](./img/sidebar.png)
     - **ファイル名は"`_category_.json`"で保存すること**
 
