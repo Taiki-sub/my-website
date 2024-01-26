@@ -52,14 +52,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Taiki-sub/my-website/edit/main/',
+            'https://github.com/Wakayama-SocSEL/socusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Taiki-sub/my-website/edit/main/',
+            'https://github.com/Wakayama-SocSEL/socusaurus/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
