@@ -29,9 +29,9 @@ sidebar_position: 1
     - 自分のパスワードを入力を入力
 
     - Noteに目的（目的以外でも良いから何か）を入力し，Select scopesのrepoをクリックしてチェック
-    ![token](./img/token.png) 
-    - サイトの下の方にあるGenerate tokenをクリックすれば，tokenの作成完了（**注：メモ必須**）
-    ![token](./img/token2.png)
+        <img src={require('./img/token.png').default} width="70%"/>
+    - サイトの下の方にあるGenerate tokenをクリックすれば，tokenの作成完了（**注：メモ必須**
+        <img src={require('./img/token2.png').default} width="90%"/>
 
 ### 自分の情報の登録
     - ユーザ名とメールアドレスを登録

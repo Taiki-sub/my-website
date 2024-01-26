@@ -27,7 +27,7 @@ sidebar_position: 1
         npx @docusaurus/init@latest init [プロジェクト名] classic
         ```
     - **Ok to proceed? (y) と聞かれるので"y"を入力する**
-    ![download docusaurus](./img/download_docusaurus.png)
+        <img src={require('./img/download_docusaurus.png').default} width="100%"/>
 
     - **３分ほど実行に時間がかかる**
     **Happy building awesome websites!と表示されれば成功**
@@ -42,4 +42,4 @@ sidebar_position: 1
         npm start
         ```
     - **以下の画面が出れば成功**
-    ![docusaurus page](./img/docusaurus_page.png)
+        <img src={require('./img/docusaurus_page.png').default} width="90%"/>

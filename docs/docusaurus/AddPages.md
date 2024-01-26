@@ -8,7 +8,7 @@ sidebar_position: 2
  
 ## 1.ディレクトリ・ファイルを作る
     - **新しいディレクトリを作り、以下のようにファイルを構成する**
-    ![new files](./img/files.png)
+        <img src={require('./img/files.png').default} width="90%"/>
     - **`img`：ページに画像を貼る際に使うディレクトリ**
     - **`_category_.json`：カテゴリ名や表示される順序を設定するファイル**
     - **`test.md`：ページの内容が入っているファイル**
@@ -26,9 +26,11 @@ sidebar_position: 2
         }
         ```
 
+
     - **positionを入れ替えるときは数字の前にスペースを入れないとエラーが出るので注意**
     - **labelにはカテゴリの名称を、positionにはカテゴリがサイドバーの何番目に表示されるかを入れる**
-    ![sidebar](./img/sidebar.png)
+        <img src={require('./img/sidebar.png').default} width="40%"/>
+
     - **ファイル名は"`_category_.json`"で保存すること**
 
 ## 3.mdファイルの操作
