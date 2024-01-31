@@ -1,3 +1,20 @@
+<div style="text-align: center;">
+<h1>ようこそSocusaurusへ！</h1>
+<img src="static/img/logo.png" alt="logo" width="200"/ >
+</div>
+
+# Socuraurusとは
+
+SocuraurusはSocsel内で使う情報をまとめたサイトになっています！
+
+[ここ](https://socusaurus.vercel.app/)にアクセスすると見ることができます 👀
+
+情報共有する際にしてください！
+
+どんどん記事を追加して最高のサイトを作っていきましょう 💪
+
+環境構築やページの追加方法など詳しいことは[ここ](https://socusaurus.vercel.app/category/docusaurus利用方法)をご覧ください
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
