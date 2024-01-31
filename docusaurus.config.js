@@ -95,6 +95,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      docs: {
+        sidebar: {
+          hideable: true, //サイドバー開閉有効
+          autoCollapseCategories: true, //アコーディオンを開いた時に、別のアコーディオンを閉じる
+        },
+      },
     }),
 };
 
