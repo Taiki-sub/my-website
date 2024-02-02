@@ -73,19 +73,21 @@ sidebar_position: 2
             ```bash
             Host brain-1 
 
-            Hostname 133.42.160.101 
+            Hostname [IPアドレス] 
 
             User ユーザ名 
             ```
+        - **IPアドレスはセキュリティ保持のため研究室のサーバー係に聞いてください**
     - #### windows版
         - C:\Users\user\.ssh下にテキストファイルを作成 
         - 以下の3行を入力し、適当な名前で保存 
             ```bash
             Host brain-1 
  
-            Hostname 133.42.160.101 
+            Hostname [IPアドレス] 
  
             User ユーザ名 
             ```
+        - **IPアドレスはセキュリティ保持のため研究室のサーバー係に聞いてください**
         - ファイル名を編集し、"config"にする(**注：拡張子はなし**)
             <img src={require('./img/2024-01-12_13h35_14.png').default} width="100%"/>
