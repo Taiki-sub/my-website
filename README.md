@@ -13,7 +13,7 @@ SocuraurusはSocsel内で使う情報をまとめたサイトになっていま�
 
 どんどん記事を追加して最高のサイトを作っていきましょう 💪
 
-環境構築やページの追加方法など詳しいことは[ここ](https://socusaurus.vercel.app/category/docusaurus利用方法)をご覧ください
+環境構築やページの追加方法など詳しいことは[ここ](https://socusaurus.vercel.app/category/docusaurus利用方法)をご覧ください 👁️
 
 # Website
 
