@@ -10,15 +10,6 @@ export default function middleware(request) {
   if (authorizationHeader) {
     const basicAuth = authorizationHeader.split(" ")[1];
     const [user, password] = atob(basicAuth).toString().split(":");
-
-    if (user === process.env.BASIC_AUTH_USER) {
-        console.log("user");
-    }
-
-    if (user === process.env.BASIC_AUTH_PASSWORD) {
-        console.log("password");
-    }
-
     if (user === process.env.BASIC_AUTH_USER && password === process.env.BASIC_AUTH_PASSWORD) {
       return next();
     }
