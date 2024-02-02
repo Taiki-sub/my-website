@@ -11,7 +11,7 @@ sidebar_position: 1
 
   - ターミナルに以下を入力
     ```bash
-      ssh ユーザー名@133.42.160.101
+      ssh ユーザー名@[IPアドレス]
     ```
     - ユーザ名を確認したい場合は以下を入力
       ```bash
@@ -19,9 +19,11 @@ sidebar_position: 1
       ```
     - サーバ2にログインしたい場合は以下を入力
       ```bash
-      ssh ユーザー名@133.42.160.102
+      ssh ユーザー名@[サーバー２のIPアドレス]
       ```
     - 初めてログインの場合は"Are you sure you want to continue connecting (yes/no/[fingerprint])?" と表示されるので、"yes"を入力
+    
+    - **IPアドレスはセキュリティ保持のため研究室のサーバー係に聞いてください**
 
 ### 2. パスワードの設定
 
